@@ -6,6 +6,7 @@
   "menu": [
     {"name": "iPhone", "command": "iphone"},
     {"name": "Android", "command": "android"},
+    {"name": "Khumo", "command": "khumo"},
     {"name": "Tablet", "command": "tablet"},
     {"name": "Desktop", "command": "desktop"},
     {"name": "Watch", "command": "watch"},

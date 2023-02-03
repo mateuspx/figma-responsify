@@ -1,41 +1,59 @@
 const iphone = [
 	{
-		name: 'iPhone 12 Pro Max',
-		width: 428,
-		height: 926,
+		name: 'iOS Main Resolution',
+		width: 375,
+		height: 667,
 	},
 	{
-		name: 'iPhone 12 Pro',
+		name: 'iOS Main Resolution Tall',
+		width: 375,
+		height: 812,
+	},
+	{
+		name: 'iOS Small',
+		width: 320,
+		height: 568,
+	},
+	{
+		name: 'iOS Big',
 		width: 390,
 		height: 844,
 	},
 	{
-		name: 'iPhone 12 mini',
-		width: 360,
-		height: 780,
-	},
-	{
-		name: 'iPhone SE',
-		width: 320,
-		height: 568,
+		name: 'iOS Big & Tall',
+		width: 428,
+		height: 926,
 	},
 ];
 
 const android = [
 	{
-		name: 'Google Pixel',
-		width: 411,
-		height: 731,
-	},
-	{
-		name: 'Google Pixel XL',
-		width: 411,
-		height: 823,
-	},
-	{
-		name: 'Generic Android',
+		name: 'Android Main Resolution',
 		width: 360,
 		height: 640,
+	},
+	{
+		name: 'Android Main Resolution Tall',
+		width: 360,
+		height: 800,
+	},
+	{
+		name: 'Android Big',
+		width: 412,
+		height: 915,
+	},
+];
+
+const khumo = [
+	{
+		name: 'Khumo',
+		width: 360,
+		height: 640,
+	},
+	{
+		name: 'Mini',
+		width: 480,
+		height: 480,
 	},
 ];
 
@@ -109,11 +127,6 @@ const desktop = [
 		height: 900,
 	},
 	{
-		name: 'Surface Book',
-		width: 1500,
-		height: 1000,
-	},
-	{
 		name: 'iMac',
 		width: 1280,
 		height: 720,
@@ -136,6 +149,7 @@ const watch = [
 export default {
 	iphone,
 	android,
+	khumo,
 	tablet,
 	desktop,
 	watch,
