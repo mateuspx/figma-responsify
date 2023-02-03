@@ -1,8 +1,9 @@
 {
   "api": "1.0.0",
-  "id": "743654854885744527",
-  "name": "Responsify ⚡️",
+  "id": "1203383908646591357",
+  "name": "Yoco Responsify",
   "main": "src/plugin.ts",
+  "editorType": ["figma"],
   "menu": [
     {"name": "iPhone", "command": "iphone"},
     {"name": "Android", "command": "android"},
